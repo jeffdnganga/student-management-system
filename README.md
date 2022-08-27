@@ -13,8 +13,8 @@ Thank you for checking out my repo on a simple Student Management System built u
 
 To test out my project, kindly follow these steps;
 
-Clone the repository into your local machine/computer.
-Open phpMyAdmin and create a new database called 'student-management-system'
-Open your favourite terminal in the project folder you cloned for this project and type this command 'php artisan migrate' to migrate/create the tables required by this system in the database you just created.
-Navigate to the 'fee_payment_models' table and create a new trigger 'SET new.Fee_balance = new.Term_fee - new.Amount_paid' -> this trigger will automatically calculate the fees balance whenever a new fees amount is inserted in the table.
-Finally, run 'php artisan serve' in the terminal to test out the proect on your favourite browser!
+1. Clone the repository into your local machine/computer.
+2. Open phpMyAdmin and create a new database called 'student-management-system'
+3. Open your favourite terminal in the project folder you cloned for this project and type this command 'php artisan migrate' to migrate/create the tables required by this system in the database you just created.
+4. Navigate to the 'fee_payment_models' table and create a new trigger 'SET new.Fee_balance = new.Term_fee - new.Amount_paid' -> this trigger will automatically calculate the fees balance whenever a new fees amount is inserted in the table.
+5. Finally, run 'php artisan serve' in the terminal to test out the proect on your favourite browser!
